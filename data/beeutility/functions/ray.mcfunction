@@ -1,0 +1,2 @@
+execute if entity @s[distance=..4] if block ~ ~ ~ #minecraft:beehives run function beeutility:query
+execute if entity @s[distance=..4] unless block ~ ~ ~ #minecraft:beehives positioned ^ ^ ^0.005 run function beeutility:ray
